@@ -23,36 +23,32 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Cara Menjalankan Project Laravel
 
-### Step 1 – Clone Repository Project
+### Step 1 – Clone Repository Project 
 
 Clone source code dari repository GitHub:
-
-```bash
 git clone https://github.com/SyarahYanti/BSU-Lamber-Website.git
 cd BSU-Lamber-Website
 
-### Step 2 – Install Dependency Backend (Laravel)
 
-```bash
+### Step 2 - Install Dependency Backend (Laravel)
+
 composer install
 
-### Step 3 – Install Dependency Frontend
+### Step 3 - Install Dependency Frontend
 
-```bash
 npm install
 npm run build
 
-### Step 4 – Import Database
+### Step 4 - Import Database
 
 File database **(bsu_lamber.sql) sudah tersedia** pada Google Drive berikut:
 
 https://drive.google.com/drive/folders/1pS0c3pOdBKxyOdnvMogWYF8RfDqDj7QT?usp=drive_link
 
-### Step 5 – Konfigurasi Database (.env)
+### Step 5 - Konfigurasi Database (.env)
 
 Buka file `.env` pada root project, lalu sesuaikan konfigurasi database sebagai berikut:
 
-```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -60,11 +56,9 @@ DB_DATABASE=bsu_lamber
 DB_USERNAME=root
 DB_PASSWORD=
 
-### Step 6 – Menjalankan Server Laravel
+### Step 6 - Menjalankan Server Laravel
 
 Jalankan server Laravel secara lokal dengan perintah berikut:
-
-```bash
 php artisan serve
 
 ### Step 7 – Akun Login
@@ -73,6 +67,7 @@ Gunakan akun berikut untuk masuk ke sistem:
 
 - **Email**    : syarahyanti013@gmail.com  
 - **Password** : syarah1234
+
 
 ## Learning Laravel
 
