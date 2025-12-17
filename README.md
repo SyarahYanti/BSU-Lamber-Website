@@ -26,8 +26,8 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ### Step 1 – Clone Repository Project 
 
 Clone source code dari repository GitHub:
-git clone https://github.com/SyarahYanti/BSU-Lamber-Website.git
-cd BSU-Lamber-Website
+- git clone https://github.com/SyarahYanti/BSU-Lamber-Website.git
+- cd BSU-Lamber-Website
 
 
 ### Step 2 - Install Dependency Backend (Laravel)
@@ -36,8 +36,8 @@ composer install
 
 ### Step 3 - Install Dependency Frontend
 
-npm install
-npm run build
+- npm install
+- npm run build
 
 ### Step 4 - Import Database
 
@@ -49,12 +49,12 @@ https://drive.google.com/drive/folders/1pS0c3pOdBKxyOdnvMogWYF8RfDqDj7QT?usp=dri
 
 Buka file `.env` pada root project, lalu sesuaikan konfigurasi database sebagai berikut:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=bsu_lamber
-DB_USERNAME=root
-DB_PASSWORD=
+- DB_CONNECTION=mysql
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_DATABASE=bsu_lamber
+- DB_USERNAME=root
+- DB_PASSWORD=
 
 ### Step 6 - Menjalankan Server Laravel
 
@@ -78,14 +78,17 @@ Cek Versi PHP di terminal vscode ketik php -v
 Buka situs resmi PHP Windows: https://windows.php.net/download/
 
 ### Step 3 - Unduh PHP ZIP dengan versi SAMA PERSIS dengan hasil php -v
+
 ### Step 4 - Extract file ZIP PHP yang telah diunduh
+
 ### Step 5 - Salin File php_gd.dll
+
 Caranya masuk ke Folder ext pada php yang kalian unduh tadi, cari file php_gd.dll dan salin file tersebut ke folder PHP utama(C:\php\ext)
+
 ### Step 6 - Aktifkan Extension GD di php.ini
 Tekan Ctrl + F, cari: 
--> ;extension=gd ubah menjadi extension=gd 
--> extension_dir ubah menjadi extension_dir = "ext"
-lalu save file php.ini
+- ;extension=gd ubah menjadi extension=gd 
+- extension_dir ubah menjadi extension_dir = "ext" lalu save file php.ini
 
 ### Step 7 - Ketik php -m di terminal vscode 
 Jika sudah muncul gd maka install gd sudah berhasil
