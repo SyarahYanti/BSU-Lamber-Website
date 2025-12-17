@@ -68,6 +68,27 @@ Gunakan akun berikut untuk masuk ke sistem:
 - **Email**    : syarahyanti013@gmail.com  
 - **Password** : syarah1234
 
+## Cara Install & Mengaktifkan PHP GD Extension 
+
+### Step 1 - Unduh GD (Versi PHP yang Sama)
+
+Cek Versi PHP di terminal vscode ketik php -v
+
+### Step 2 - Catat versi PHP (contoh: PHP 8.4.7)
+Buka situs resmi PHP Windows: https://windows.php.net/download/
+
+### Step 3 - Unduh PHP ZIP dengan versi SAMA PERSIS dengan hasil php -v
+### Step 4 - Extract file ZIP PHP yang telah diunduh
+### Step 5 - Salin File php_gd.dll
+Caranya masuk ke Folder ext pada php yang kalian unduh tadi, cari file php_gd.dll dan salin file tersebut ke folder PHP utama(C:\php\ext)
+### Step 6 - Aktifkan Extension GD di php.ini
+Tekan Ctrl + F, cari: 
+-> ;extension=gd ubah menjadi extension=gd 
+-> extension_dir ubah menjadi extension_dir = "ext"
+lalu save file php.ini
+
+### Step 7 - Ketik php -m di terminal vscode 
+Jika sudah muncul gd maka install gd sudah berhasil
 
 ## Learning Laravel
 
