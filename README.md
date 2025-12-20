@@ -100,7 +100,7 @@ Buka php.ini dan Tekan Ctrl + F, cari:
 - extension_dir ubah menjadi extension_dir = "ext"(sesuaikan dengan alamat path/lokasi file Anda) lalu save file php.ini
 
 ### Step 2 - Ketik php -m di terminal vscode 
-Jika sudah muncul gd maka install gd sudah berhasil
+Jika sudah muncul gd maka module gd sudah siap untuk Anda gunakan
 
 ## Learning Laravel
 
