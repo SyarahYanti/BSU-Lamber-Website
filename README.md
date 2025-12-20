@@ -93,6 +93,15 @@ Tekan Ctrl + F, cari:
 ### Step 7 - Ketik php -m di terminal vscode 
 Jika sudah muncul gd maka install gd sudah berhasil
 
+## Another Option : Cara Mengaktifkan PHP GD Extension yang sudah di install tapi belum terbaca di module php
+### Step 1 - Aktifkan Extension GD di php.ini
+Buka php.ini dan Tekan Ctrl + F, cari: 
+- ;extension=gd ubah menjadi extension=gd 
+- extension_dir ubah menjadi extension_dir = "ext"(sesuaikan dengan alamat path/lokasi file Anda) lalu save file php.ini
+
+### Step 2 - Ketik php -m di terminal vscode 
+Jika sudah muncul gd maka install gd sudah berhasil
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
